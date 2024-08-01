@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - DraftCode</title>
+
+    <meta name="description"
+        content="DraftCode is launching soon with innovative solutions in mobile and web development as well as cutting-edge low-level computer graphics. Stay tuned!">
+    <meta name="keywords"
+        content="DraftCode, coming soon, mobile development, web development, low-level computer graphics, innovative solutions">
+    <meta name="author" content="DraftCode Team">
+
+    <link rel="icon" type="image/x-icon" href="./resources/icons/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="limit-width">
+                <img src="./resources/logo/draftcode_default_dark_logo.svg" alt="DraftCode Logo" class="logo non-selectable">
+            </div>
+        </header>
+        <div class="limit-width">
+            <div class="content">
+                <div class="scrollable-content-main">
+                    <div class="section-wrapper">
+                        <section class="video-section">
+                            <div class="video-wrapper">
+                                <video autoplay muted loop>
+                                    <source src="./resources/videos/vd_default_cube.webm" type="video/webm">
+                                    Video not supported.
+                                </video>
+                            </div>
+                            <div class="overlay-text">
+                                <span class="non-selectable">COMING<br>SOON</span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="section-wrapper">
+                        <section class="info-section">
+                            <div class="scrollable-content">
+                                <p>Exciting news! Our team at DraftCode is busy crafting a groundbreaking new website,
+                                    specializing
+                                    in
+                                    mobile and web development as well as cutting-edge low-level computer graphics. We
+                                    can't
+                                    wait to
+                                    share our innovative solutions with you!</p>
+                                <form id="notification-form" method="post" novalidate>
+                                    <label for="email-input" id="email-label" class="non-selectable">Get notified when we're live:</label>
+                                    <div class="email-input-container">
+                                        <div id="loader">
+                                            <svg viewBox="25 25 50 50">
+                                                <circle r="20" cy="50" cx="50"></circle>
+                                            </svg>
+                                        </div>
+                                        <input type="email" id="email-input" name="email" aria-labelledby="email-label"
+                                            placeholder="Enter your email" autocomplete="email" required />
+                                        <button id="submit-button" type="submit">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 664 663">
+                                                <path fill="none"
+                                                    d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                                                </path>
+                                                <path stroke-linejoin="round" stroke-linecap="round"
+                                                    stroke-width="33.67" stroke="#6c6c6c"
+                                                    d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
